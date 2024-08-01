@@ -1,9 +1,13 @@
+'use client';
+
 import { FaLocationArrow } from 'react-icons/fa6'
 import MagicButton from './ui/MagicButton'
 import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
+import { Typewriter, useTypewriter } from 'react-simple-typewriter'
 
 const Hero = () => {
+
   return (
     <div className="pb-20 pt-36">
         <div>
@@ -29,16 +33,16 @@ const Hero = () => {
         <div className="flex justify-center relative my-20 z-10">
             <div className='max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center'>
                 <h2 className='uppercase tracking-widest text-xs text-center text-blue-100 max-w-80'>
-                    Dynamics Web Magic with Next.js
+                    Dynamics Web Magic with <Typewriter words= {['React.js', 'TypeScript', 'Javascript', 'Next.js' ]} loop={false} typeSpeed={100} deleteSpeed={120} delaySpeed={4000}/>
                 </h2>
 
                 <TextGenerateEffect 
                     className='text-center text-[40px] md:text-5xl lg:text-6xl'
-                    words='Transforming Concepts into Seamless User Experiences'
+                    words='Transforming Concepts into Seamless User Experiencels'
                 />
 
                 <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
-                    Hi! I&apos;m Lucas, a Next.js Developer base in Brazil
+                    Hi! I&apos;m Lucas, a <span><Typewriter words= {['Next.js', 'React.js', 'TypeScript', 'Javascript', 'Web' ]} loop={false} typeSpeed={80} deleteSpeed={100} delaySpeed={2000}/></span> Developer
                 </p>
                 
                 <a href="#about">
