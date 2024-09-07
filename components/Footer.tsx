@@ -1,12 +1,12 @@
 import React from 'react'
 import MagicButton from './ui/MagicButton'
+import CpButton from './ui/CopyButton2'
 import { FaLocationArrow } from 'react-icons/fa6'
 import { socialMedia } from '@/data'
 
 const Footer = () => {
   return (
     <footer className="w-full pb-10 mb-[100px] md:mb-9" id="contact">
-
         <div className="flex flex-col items-center">
             <h1 className="heading lg:max-w-[45vw]">
                 Ready to take <span className="text-purple">your</span> digital presence to the next level?
@@ -18,7 +18,8 @@ const Footer = () => {
                     icon={<FaLocationArrow />}
                     position="right"
                 />
-            </a>
+            </a>            
+            <CpButton />
         </div>
 
         <div className="flex mt-16 md:flex-row flex-col justify-between items-center">

@@ -88,19 +88,19 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Sushiman",
-    des: "Interactive web page for a sushi shop.",
+    title: "Food Delivery app",
+    des: "A website for a restaurant with delivery",
     img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/ai_saas_app",
+    iconLists: ["/next.svg", "/re.svg", "/tail.svg", "/ts.svg"],
+    link: "https://github.com/LucasLobell/FoodDelivery",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    title: "School Management",
+    des: "A School Management app for institutions, teachers, students and parents",
     img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/adrianhajdin/iphone",
+    iconLists: ["/next.svg", "re.svg", "/tail.svg", "/ts.svg"],
+    link: "https://github.com/LucasLobell/SchlManagement",
   },
 ];
 
@@ -142,14 +142,15 @@ export const workExperience = [
   {
     id: 1,
     title: "Present",
-    desc: "Even though I don't have practical working experience as a developer, I am constantly improving my skills and am studying on a day to day basis as it has also become my main hobby.",
+    desc: "Even though I don't have much practical working experience as a developer, I am constantly improving my skills and am studying on a day to day basis as it has also become my main hobby.",
+
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
     title: "Past Experience",
-    desc: "I've worked as an english teacher and am currently working a IT and marketing assistant.",
+    desc: "I've worked as an english teacher and am currently working as a trainee on IT and marketing.",
     className: "md:col-span-2",
     thumbnail: "/exp2.svg",
   },
